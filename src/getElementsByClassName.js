@@ -9,8 +9,7 @@ var getElementsByClassName = function(className, node) {
   node = node || document.body;
 
   var result = [];
-  //check if the class name matches
-  //if true, push to result array
+  //check if the class name matches and if true, push to result array
   if (node.classList.contains(className)) {
     result.push(node);
   }

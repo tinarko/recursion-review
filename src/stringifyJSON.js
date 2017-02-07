@@ -5,7 +5,6 @@
 
 var stringifyJSON = function(obj) {
   // your code goes here
-  //debugger;
   var string = '';
 
   if (obj === null) {
